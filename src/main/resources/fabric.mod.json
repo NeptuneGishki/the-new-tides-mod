@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "thenewtides",
+  "version": "${version}",
+
+  "name": "The New Tides",
+  "description": "The new tides is big content mod containing all kinda of mytholigcal creatures,biomes and structures.Fight pirates,become freinds with mermaids and mermen and take on the Oni in his temple dungeon.The choice is yours!",
+  "authors": [
+    "Neptune - Lead Developer/Programmer"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.neptune.thenewtides.thenewTides"
+    ]
+  },
+  "mixins": [
+    "thenewtides.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

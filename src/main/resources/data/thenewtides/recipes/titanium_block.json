@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "thenewtides:titanium_ignot"
+    }
+  },
+  "result": {
+    "item": "thenewtides:titanium_block"
+  }
+}

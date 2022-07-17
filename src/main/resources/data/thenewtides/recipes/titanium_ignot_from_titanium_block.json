@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thenewtides:titanium_block"
+    }
+  ],
+  "result": {
+    "item": "thenewtides:titanium_ignot",
+    "count": 9
+  }
+}
